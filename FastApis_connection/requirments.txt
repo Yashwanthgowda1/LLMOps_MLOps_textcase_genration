@@ -1,0 +1,19 @@
+Ipython
+pydantic
+langgraph
+langchain
+langchain-core
+langchain-community
+python-dotenv
+langchain-groq
+# langcahin also provide specific tools
+arxiv
+wikipedia
+langsmith
+numpy>=2.3.4
+pydantic>=2.12.3
+python-dotenv>=1.1.1
+torch>=2.9.0
+transformers>=4.57.1
+fastapi
+    
