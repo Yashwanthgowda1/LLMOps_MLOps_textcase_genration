@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import requests
 from pydantic import BaseModel,Field
-topics=input("enter the stock")
+topics=input("enter the stock : ")
 market_payload = {"input": {"topic": topics}}
 market_res = requests.post("http://localhost:8000/market/invoke", json=market_payload)
 market_output = market_res.json()["output"]["content"]
