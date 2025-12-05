@@ -9,7 +9,7 @@ import dotenv
 dotenv.load_dotenv()
 
 # FIX: correct getenv usage
-os.environ["GROQ_API_KEY"] ="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"
+os.environ["GROQ_API_KEY"] ="*********"
 
 app = FastAPI(
     title="LANGCHAIN SERVER",
